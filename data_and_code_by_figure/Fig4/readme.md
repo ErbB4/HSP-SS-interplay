@@ -1,1 +1,1 @@
-This folder contains data and analysis code for growing the network with Gaussian HSP rule (eta>0), as shown in Fig4.
+This folder contains data and analysis code for growing the network with Gaussian HSP rule (eta>0), as shown in Fig4. In the main folder, we grew the network without external current injection. In the subfolders, damping current was injected into the E pop to facilitate synapse growth.

@@ -1,1 +1,1 @@
-The peak of damping current was 250pA.
+The peak of damping current was 200pA.

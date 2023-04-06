@@ -1,1 +1,1 @@
-This folder contains the simulation data and analysis code for plotting. Sample code for running network simulaiton with structural plasticity rule could be find under the main folder.
+This folder contains the simulation code/data and analysis code for plotting to visualize the growth of network under three HSP rules: linear, Gaussian (eta=0), and Gaussian (eta>0).

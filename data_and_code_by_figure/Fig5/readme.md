@@ -1,1 +1,1 @@
-This folder contains simulation results and code in for Fig5, where we systematically screened the responses of HSP rules (linear and two Gaussian variants) under various activity perturbations.
+This folder contains simulation results and simulation/plotting code used in Fig5, where we systematically screened the responses of HSP rules (linear and two Gaussian variants) under various activity perturbations.

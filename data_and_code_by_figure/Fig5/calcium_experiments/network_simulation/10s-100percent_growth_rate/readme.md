@@ -1,2 +1,2 @@
-Tau ca = 10s
+Tau ca = 10s;
 original growth rate: 100%

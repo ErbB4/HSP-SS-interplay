@@ -1,0 +1,12 @@
+#!/bin/bash
+#MOAB -N EXPERIMENT
+
+
+#MSUB -l walltime=01:05:00:00
+#MSUB -l pmem=800mb
+#MSUB -l nodes=2:ppn=20
+
+module load mpi/openmpi/4.0-gnu-9.2 
+module load neuro/nest/2.20.0
+
+mpirun python /work/ws/nemo/fr_hl1029-axonden-0/experiment.py $MOAB_JOBARRAYINDEX

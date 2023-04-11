@@ -48,7 +48,7 @@ def get_weights(sources,targets,weights,targetID1,targetID2):
 
 
 ################# get FR of two neurons ############
-T = "C://Users/han/Desktop/Lab/GaussianHSP-SC/with-sandra/alpha2/datafullw/"
+T = "./doubled_SS/"
 sampling_time_points = np.load(T + "sampling_time_points_seed_0.npy")
 rates_all = np.load(T+"datafullw002rates_all_seed_0.npy")
 
@@ -71,7 +71,7 @@ ndep_std_1  = []
 ndep_mean_2 = []
 ndep_std_2  = []
 
-T = "C://Users/han/Desktop/Lab/GaussianHSP-SC/with-sandra/alpha2/resultsfull002/"
+T = "./doubled_SS/"
 
 for sampling_time_point in sampling_time_points:
     sources = np.load(T+"sources_"+str(sampling_time_point)+".npy")

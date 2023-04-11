@@ -84,13 +84,13 @@ plt.rcParams['ytick.major.width'] = 0.5
 def cm2inch(value):
     return value/2.54
 
-T = "./data/"
+T = "./"
 data_raw = pd.read_csv(T+"spine_size_merged.csv")
 size_raw = data_raw.copy()
 size_raw["segment_ID"] = size_raw["batch"].astype(str) + "-" + size_raw["culture"].astype(str)
 size = reorganize_data(size_raw)
 
-T = "./data/"
+T = "./"
 data_raw = pd.read_csv(T+"data_density_merged.csv")
 density = data_raw.copy()
 

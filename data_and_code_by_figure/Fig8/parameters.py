@@ -18,10 +18,10 @@ T = "/p/scratch/icei-hbp-2021-0007/HSP/"
 dt                      = 0.1
 MSP_update_interval     = 100                       # update interval for MSP in ms
 total_num_virtual_procs = 128                       # number = nodes * ppn in experiment.moab
-growth_time             = 6000000.#10000                   # simulation time in ms
-cicles                  = 20#10
+growth_time             = 6000000.                  # simulation time in ms
+cicles                  = 20
 growth_step             = growth_time/cicles
-lesion_step             = growth_step/30#2
+lesion_step             = growth_step/30
 min_delay               = 1.0
 max_delay               = 1.5
 
@@ -88,8 +88,8 @@ synapse_model   = "scaling_synapse"
 
 # recording spikes
 
-long_duration  = 5000.#1000.
-short_duration = 1000.#500. 
+long_duration  = 5000.
+short_duration = 1000. 
 
 # to help the growth of conn
 

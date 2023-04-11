@@ -1,1 +1,1 @@
-This folder contains the code and simulated results when synaptic scaling was applied in parallel to homeostatic structural plasticity upon silencing.
+This folder contains the code and simulated results for Fig7, where synaptic scaling was applied in parallel to homeostatic structural plasticity upon silencing. We onserved that synaptic scaling upscaled the input excitatory synaptic weights and such change in recurrent connectivity may reactive silent neurons and shift silencing-induced disconnection to rewiring.

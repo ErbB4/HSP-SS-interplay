@@ -1,1 +1,1 @@
-This folder contains simulation code and analysis code for systematic study. Simulated data was too big to be shared here.
+This folder contains simulation code and analysis code for the systematic study in Fig 8. Simulated data was too big to be shared here. You can generate it locally using the shared code.

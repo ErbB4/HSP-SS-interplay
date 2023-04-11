@@ -37,8 +37,6 @@ gs1.update(top=0.9,bottom=0.2,left=0.12,right=0.95,hspace=0.05,wspace=0.15)
 
 ax1 = plt.subplot(gs1[0,0])
 ax2 = plt.subplot(gs1[1,0])
-#ax3 = fig.add_axes([0.28,0.648,0.1,0.1])
-
 
 T = "./plastic-linear/"
 
@@ -76,8 +74,6 @@ ax2.set_ylabel(r"$\Gamma$")
 
 ax4 = plt.subplot(gs1[0,1])
 ax5 = plt.subplot(gs1[1,1])
-#ax6 = fig.add_axes([0.6,0.648,0.1,0.1])
-
 
 T = "./plastic-gaussian-0eta/"
 
@@ -115,7 +111,6 @@ ax5.set_yticks([])
 
 ax7 = plt.subplot(gs1[0,2])
 ax8 = plt.subplot(gs1[1,2])
-#ax9 = fig.add_axes([0.85,0.44,0.1,0.1])
 
 T = "./plastic-gaussian/"
 

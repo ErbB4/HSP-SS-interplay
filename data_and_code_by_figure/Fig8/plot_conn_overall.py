@@ -28,7 +28,7 @@ def cm2inch(value):
 
 
 def plot_rates(gf,sf,ax):
-    T = "C://Users/han/Desktop/GaussianHSP-SC/with-sandra/alpha2/datafullw/paramspace/"
+    T = "./"
     time_points = np.load(T+str(gf)+"/"+str(sf)+"/sampling_time_points_seed_0.npy")
     i=0
     str_ll = np.load(T+str(gf)+"/"+str(sf)+"/str_ll_seed_"+str(i)+".npy")

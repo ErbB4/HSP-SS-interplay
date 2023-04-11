@@ -37,7 +37,7 @@ ax3 = plt.subplot(gs1[5,0])
 
 
 ############## plot stimulation ###############
-T = "C://Users/han/Desktop/Lab/GaussianHSP-SC/plastic-gaussian-bgIE-10s-lesion-1000"
+T = "./no_SS" #This path is not critical; we only use it to fetch a time point array for generating the stimulus plot.
 seed=0
 time_points = np.load(T+"/sampling_time_points_seed_"+str(seed)+".npy")
 

@@ -1,1 +1,1 @@
-Different stimulation intensity (100% and 200%) and growth rate (100% and 10% of the original growth rates) were examined in this study to reveal the joint effects of external stimulation and recurrent connectivity on network activity and the response of Gaussian HSP rule upon silencing.
+Different stimulation intensity (100% and 200%) and growth rate (100% and 10% of the original growth rates, GR) were examined in this study to reveal the joint effects of external stimulation and recurrent connectivity on network activity and the response of Gaussian HSP rule upon silencing.

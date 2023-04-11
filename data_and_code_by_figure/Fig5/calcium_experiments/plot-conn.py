@@ -65,7 +65,6 @@ time_points = np.load(T+"/sampling_time_points_seed_"+str(seed)+".npy")
 connectivity_ll    = np.load(T+"/connectivity_ll_seed_"+str(seed)+".npy")
 
 ax1.plot(time_points/1000.,connectivity_ll,'--',color='#98c1d9',label=r'$\mathrm{slow,\ }\tau_\mathrm{Ca}=10\,\mathrm{s}$')
-#ax1.plot(time_points/1000.,connectivity_rl,'-',color='#98c1d9',linewidth=2.)
 ax1.set_ylabel(r'$\Gamma_{\mathrm{S-S}}$')
 ax1.set_xlabel("Time (s)")
 

@@ -31,7 +31,7 @@ def cm2inch(value):
 
 
 def get_rate_diff(gf,sf):
-    T = "C://Users/han/Desktop/GaussianHSP-SC/with-sandra/alpha2/datafullw/paramspace/"
+    T = "./"
     time_points = np.load(T+str(gf)+"/"+str(sf)+"/sampling_time_points_seed_0.npy")
     time_points = [i for i in time_points]
 

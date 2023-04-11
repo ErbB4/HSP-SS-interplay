@@ -46,7 +46,6 @@ def plot_matrix(matrix,vmin,vmax,type):
 	averagesize=20
 
 	matrix_reduced = equalize(matrix)
-	#img = ax1.imshow(matrix_reduced.T,vmin=vmin,vmax=vmax,aspect=1.)
 	img = ax1.imshow(matrix_reduced.T,vmin=vmin,vmax=vmax,cmap=cmap,aspect=1.)
 
 	ax1.set_xticks([10,110])
@@ -73,7 +72,7 @@ def plot_matrix(matrix,vmin,vmax,type):
 
 
 
-T = "C://Users/han/Desktop/GaussianHSP-SC/with-sandra/alpha2/resultsfull002/"
+T = "./doubled_SS/"
 seed = 0
 i = 0
 

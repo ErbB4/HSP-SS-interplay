@@ -26,7 +26,7 @@ def cm2inch(value):
     return value/2.54
 
 ############## load data #####################
-T = "C://Users/han/Desktop/GaussianHSP-SC/plastic-gaussian-bgIE-10s-lesion-1000/"
+T = "./calcium_experiments/10s/"
 fig = plt.figure(figsize=(cm2inch(5), cm2inch(3.8)))
 
 ############## plot linear case ###############
@@ -57,7 +57,7 @@ ax2.plot(s_time,spike*0.014,"|",linewidth=1.5,color='#3d5a80',label=r'$10\,\math
 ax3.plot(ca_time/1000.,cas*10,'-',color='#3d5a80',label=r'$\tau_\mathrm{Ca}=10\,\mathrm{s}$')
 
 #1s
-T = "./1s/"
+T = "./calcium_experiments/1s/"
 v_m      = np.load(T+"vms.npy")
 v_m_time = np.load(T+"v_mtime.npy")
 

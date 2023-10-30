@@ -65,7 +65,7 @@ ax3.set_xticks([6000])
 ax3.set_xlabel("Time")
 ax3.set_xticklabels(["silencing"])
 ax2.text(9200,0.5,"HSP",fontsize=6.,color="#a1c5e7",va='center',ha='left')
-ax3.text(9200,0.5,"scaling",fontsize=6.,color="#dd7f5a",va='center',ha='left')
+ax3.text(9200,0.5,"HSS",fontsize=6.,color="#dd7f5a",va='center',ha='left')
 
 plt.savefig("stimulus.svg")
 plt.show()

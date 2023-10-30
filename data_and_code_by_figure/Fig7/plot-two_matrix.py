@@ -78,12 +78,20 @@ i = 0
 
 matrix_n = np.load(T+"connectivity_matrix_6900.npy")
 matrix_w = np.load(T+"connectivity_matrix_w_6900.npy")
-plot_matrix(matrix_n,0.0,0.12,"str")
-plt.savefig("conn_matrix_n.svg")
+plot_matrix(matrix_n,0.0,0.1,"str")
+plt.savefig("conn_matrix_n_6900.svg")
 
 plot_matrix(matrix_w,0.0,0.3,"eff")
-plt.savefig("conn_matrix_w.svg")
+plt.savefig("conn_matrix_w_6900.svg")
 
+
+matrix_n = np.load(T+"connectivity_matrix_7500.npy")
+matrix_w = np.load(T+"connectivity_matrix_w_7500.npy")
+plot_matrix(matrix_n,0.0,0.1,"str")
+plt.savefig("conn_matrix_n_7500.svg")
+
+plot_matrix(matrix_w,0.0,0.3,"eff")
+plt.savefig("conn_matrix_w_7500.svg")
 
 plt.show()
 
